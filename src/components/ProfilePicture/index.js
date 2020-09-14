@@ -4,13 +4,13 @@ import {Image, View} from 'react-native';
 import styles from './styles';
 import Styles from './styles';
 
-const ProfilePicture = ({uri}) => (
-  <View style={styles.container}>
+const ProfilePicture = ({uri, size = 70 }) => (
+  <View style={[styles.container, {width: size + 6, height: size + 6 }]}>
     <Image
       source={{
         uri:uri,
       }}
-      style={styles.image}
+      style={[styles.image, {width: size, height: size }]}
     />
   </View>
 );
