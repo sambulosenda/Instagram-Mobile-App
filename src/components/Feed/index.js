@@ -26,6 +26,28 @@ const data = [
     likesCount: 555,
     postedAt: '6 minutes ago',
   },
+  {
+    user: {
+      imageUri:
+        'https://pbs.twimg.com/profile_images/1284955198130130949/CgLZ3-RA_400x400.jpg',
+      name: 'Lukas',
+    },
+    imageUri: 'https://static.toiimg.com/photo/72533407/victoria-falls.jpg',
+    caption: 'His is victoria falls in zimbabwe',
+    likesCount: 555,
+    postedAt: '6 minutes ago',
+  },
+  {
+    user: {
+      imageUri:
+        'https://pbs.twimg.com/profile_images/1284955198130130949/CgLZ3-RA_400x400.jpg',
+      name: 'Lukas',
+    },
+    imageUri: 'https://static.toiimg.com/photo/72533407/victoria-falls.jpg',
+    caption: 'His is victoria falls in zimbabwe',
+    likesCount: 555,
+    postedAt: '6 minutes ago',
+  },
 ];
 
 const Feed = () => (

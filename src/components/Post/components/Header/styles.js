@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   right: {
-marginRight: 10,
+    marginRight: 10,
   },
   name: {
     fontWeight: 'bold',

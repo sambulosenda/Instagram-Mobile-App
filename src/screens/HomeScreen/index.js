@@ -1,20 +1,16 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View, SafeAreaView} from 'react-native';
 import Feed from '../../components/Feed';
 import Post from '../../components/Post';
 import Stories from '../../components/Stories';
 
-
-
 const index = () => {
   return (
-    <View>
-      
+    <SafeAreaView>
       <Feed />
-    </View>
+    </SafeAreaView>
   );
 };
 
 export default index;
 
-const styles = StyleSheet.create({});

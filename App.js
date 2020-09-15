@@ -5,38 +5,20 @@
  * @format
  * @flow strict-local
  */
-
+import 'react-native-gesture-handler';
 import React from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
+import {StatusBar} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-import HomeScreen from './src/screens/HomeScreen';
+import Router from './src/router';
 
 const App: () => React$Node = () => {
   return (
-    <>
+    <NavigationContainer>
       <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <HomeScreen />
-        
-      </SafeAreaView>
-    </>
+      <Router />
+    </NavigationContainer>
   );
 };
-
-const styles = StyleSheet.create({});
 
 export default App;
