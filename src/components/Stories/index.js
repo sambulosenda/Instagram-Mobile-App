@@ -6,8 +6,8 @@ import styles from './styles';
 const data = [
   {
     imageUri:
-      'https://pbs.twimg.com/profile_images/1284955198130130949/CgLZ3-RA_400x400.jpg',
-    name: 'Vadidm',
+      'https://pbs.twimg.com/profile_images/1308470425819787267/ByYHu8Yv_400x400.jpg',
+    name: 'Sambulo senda',
   },
   {
     imageUri:
